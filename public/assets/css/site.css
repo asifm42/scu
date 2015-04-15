@@ -1,0 +1,78 @@
+body {
+    margin-top:50px;
+    background: 50% 50% no-repeat fixed;
+    background-size: cover;
+    background-image: url(../img/bg/2.2.jpg);
+}
+
+.footer {
+    background-color: rgb(0, 51, 102);
+    background-color: rgba(0, 51, 102, 0.8);
+    color:#ccc;
+    padding-top:15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+
+.trace-paper, .card {
+    background-color: rgb(248, 248, 255);
+    background-color: rgba(248, 248, 255, 0.85);
+}
+
+.card{
+    margin-top:15px;
+    margin-bottom:15px;
+    padding:15px;
+}
+
+.panel-trace-paper{
+    background-color:transparent;
+}
+
+.panel-trace-paper > .panel-heading {
+    background-color: rgb(77, 148, 77);
+    background-color: rgba(77, 148, 77, 0.8);
+    background-color: rgba(0,51,102,0.8);
+    color:#fff;
+}
+
+.panel-trace-paper > .panel-body {
+    background-color: rgb(248, 248, 255);
+    background-color: rgba(248, 248, 255, 0.85);
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.homeLogo{
+    margin:15px auto;
+    max-width:50%;
+}
+
+.white-header{
+    color:#fff;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+[type=text].form-control,
+[type=email].form-control,
+[type=password].form-control,
+textarea.form-control,
+select.form-control,
+[type=number].form-control,
+[type=date].form-control {
+    box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.navbar-brand > img {
+    height:100%;
+}
+
+.page-header {
+    border-bottom-color:#036;
+}
